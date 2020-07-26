@@ -1,0 +1,50 @@
+font-family /* type of family */
+font-size /* font size */
+font-weight /* how bold or thin the text appears 
+               - normal or bold
+               - 100-900
+            */
+text-align /* wil align text to the element that holds it, parent
+              - left center right
+           */
+
+content box
+  color /* color of text */
+  background-color /* color behind text */
+  background-image
+  opacity /*measure of how transparent element
+            0-1
+  height
+  width
+  
+padding & margin
+   top/right/left/botton padding & margin: 1px;
+   padding/margin: 1px 1px 1px 1px;
+   padding/margin: 1px 1px;
+   padding/margin: 1px
+   margin: auto (instructs the browser to adjust the left and right margins until the element is centered within its containing element)
+ 
+border
+    border: width  style color;
+    border: 1px solid black;
+    border-radius: 1px (roundiness of border's corner)
+    
+ element's box
+     min-height: 1px;
+     max-height: 1px;
+     min-width: 1px;
+     max-width: 1px;
+ 
+ overflow
+     overflow: hidden;
+     overflow: scroll;
+     overflow: visible;
+     
+  reset to default
+      margin: 0;
+      padding: 0;
+      
+   visibility
+       visibility: hidden;
+       visibility: visible;
+  
