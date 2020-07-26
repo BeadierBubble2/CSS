@@ -26,4 +26,12 @@ p {
       - CSS selectors can be chained so that rule sets apply only to elements that match all criteria
       - h3.selection
       
+     Total Dimension (width by height)
+      - height:
+      - width: 
+      - padding: 
+      - border:
+      - margin:
       
+      Overflow
+      - what content that overflows outside its box
