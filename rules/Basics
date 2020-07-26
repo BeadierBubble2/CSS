@@ -1,0 +1,29 @@
+- Works by associating rules w/ HTML elements 
+- Rules govern how the content of specified elements should be displayed
+
+
+p {
+  font-family: Arial;
+  }
+  
+  /* "p" is selector. */
+  /* "{font-family: Arial;}" is declaration */
+    /* "font-family" is property*/
+    /* "Arial" is value*/
+   
+   
+   Link HTHML and CSS
+      - External CSS (inside head)
+      <link href="style.css" type="text/css" rel="stylesheet">
+      
+      
+   Specificity by degree (lowest to highest) (easiest to hardest to override)
+      - tag p
+      - classes="" .classes
+      - id="" #id
+      
+    Chaining Selector
+      - CSS selectors can be chained so that rule sets apply only to elements that match all criteria
+      - h3.selection
+      
+      
