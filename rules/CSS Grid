@@ -1,0 +1,46 @@
+CSS Grid contains: 
+  1. Grid Container (Parent Element)
+    - contain grid items
+    - applies overarching styling & positioning to them
+  2. Grid items
+  
+EX: 
+.html
+<div class="grid">
+  <div class="box a">A</div>
+  <div class="box b>B</div>
+  <div class="box c>C</div>
+</div>
+
+.css
+.grid{
+display
+}
+
+.box {
+}
+
+.a {
+}
+
+Properties that define the number and sizes of columns and/or rows
+  - grid-template-columns: 100px 1fr 10%
+  - grid-template-rows: 100px 1fr 10%
+  - grid-template: 100px 1fr 10%/ 100px 1fr 10% (rows/columns)
+  
+Space between rows/columns
+- grid-column-gap: 5px
+- grid-row-gap: 5px
+- grid-gap: 20px 10px (row column)
+
+Make elements span certain rows/columns of the grid
+- grid-row-start: 4
+- grid-row-end: 6
+- grid row: 4/ 6
+
+- grid-column-start: 4
+- grid-column-end: 6
+- grid column: 4/ 6
+
+- grid-area: 2/3/4/5
+(grid-row-start/grid-column-start/grid-row-end/grid-column-end)
