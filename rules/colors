@@ -1,0 +1,10 @@
+Colors in CSS can be described in many ways
+  1. Named color
+    - color: red;
+  2. RGB
+    - rgb(23, 45, 23)
+  3. HSL (Hue, Saturation, and Lightness)
+    - color: hsl(120, 60%, 70%, 0.1)
+      - Opacity/Alpha (amount of transparency) 0 to 1
+  4. Hexadcimal
+    - color: #A52A2A
