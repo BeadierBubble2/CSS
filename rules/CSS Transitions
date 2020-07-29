@@ -1,0 +1,33 @@
+CSS Transitions
+  - allows us to control the timing of visual state changes
+  
+  transition-property: color
+    - the property we want to transition
+ 
+ transition-duration: 1s
+    - duration of transition
+ 
+ transition-delay: 250ms
+    - specifies the time to wait before startingthe transition
+  
+  transition-timing-function: 
+    - describes the pace of the transition
+      - ease in
+        - starts slow, accelerates quickly, stops abruptly
+      - ease out
+        - begins abruptly, slows down, and ends slowly
+      - ease-in-out
+        - starts slow, gets fast in the middle, and ends slowly
+      - linear
+        - constant speed throughout
+ 
+ transition: color 1.5s linear 0.5s
+  - transition-property
+  - duration
+  - timing-function
+  - delay
+  and
+ transition: color 1.5s linear 0.5s,
+ font-size 750ms ease-in  100ms;
+ and 
+ transition: all 1.5s linear 0.5s;
